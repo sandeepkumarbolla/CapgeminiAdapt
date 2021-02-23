@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
+
+   <bean id = "Customer" class = "AssignemtSpringCore.Q1.Customer">
+      <property name = "customerName" value = "Adam"/>
+      <property name= "custmerNumber" value= "345678"/>
+      <property name= "cutomerId" value= "1"/>
+       
+   </bean>
+   <bean id = "Address" class = "AssignemtSpringCore.Q1.Address">
+   <property name="country" value="America"/>
+   <property name="state" value="Charlaotte"/>
+   <property name="city" value="Phoenix"/>
+   <property name="zip" value="14434"/>
+   <property name="street" value="St.Lauren's"/>
+   
+ </bean>
+</beans>
