@@ -1,0 +1,1 @@
+document.write('<script type ="module" src="./module1.js"></script>');
