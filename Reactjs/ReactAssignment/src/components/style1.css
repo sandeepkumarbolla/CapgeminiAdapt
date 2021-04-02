@@ -1,0 +1,22 @@
+.a {
+    background-color: black;
+    color: white;
+    height: 100px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.b {
+    background-color: teal;
+    float: left;
+    width:45%;
+    height: 100px;
+    color: white;
+}
+.c {
+    background-color: teal;
+    float: right;
+    width:45%;
+    height: 100px;
+    color: white;
+}
