@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: SpringBootJMSReceiver
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Ramesh
+Implementation-Vendor-Id: com.ram
+Build-Jdk: 1.8.0_221
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/SpringBootJMSReceiver
+Created-By: Maven Integration for Eclipse
+
