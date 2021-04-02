@@ -1,0 +1,17 @@
+.main{
+  width:100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 70%;
+}
+.sub{
+ 
+  margin-left: 40%;
+  margin-right: auto;
+}
+button{
+width:20%;
+height: max-content;
+}

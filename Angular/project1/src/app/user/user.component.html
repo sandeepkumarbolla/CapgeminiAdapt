@@ -1,0 +1,35 @@
+<div>
+<mat-accordion>
+    <div  *ngFor="let el of elements ; let i=index ">
+    <mat-expansion-panel hideToggle>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+<h1>{{el.name}}</h1>
+
+</mat-panel-title>
+    <mat-panel-description>{{el.rating}}</mat-panel-description>
+      </mat-expansion-panel-header>
+      <table   border="1">
+        <thead>
+          <tr>
+            <th *ngFor="let head of headElements; let i = index" scope="col">{{head}} </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr  *ngFor="let el of element ; let i=index " >
+            <th scope="row">{{el.position}}</th>
+            <td>{{el.name}}</td>
+            <td>{{el.quantity}}</td>
+            <td>{{el.price}}</td>
+            <td><button>Add</button></td>
+          </tr>
+        </tbody>
+      </table>
+      <mat-action-row>
+        <button mat-button color="ascent" >Checkout</button>
+      </mat-action-row>
+    </mat-expansion-panel>
+    
+</div>
+    </mat-accordion>
+</div>

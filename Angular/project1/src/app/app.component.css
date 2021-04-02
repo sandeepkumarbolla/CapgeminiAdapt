@@ -1,0 +1,12 @@
+mat-card{
+    height: 50px;
+    background-color: pink;
+    text-align: center;
+    text-decoration-color: snow;
+    font-size:xx-large;
+}
+.bot{
+    
+    margin-top: 10px;
+    border-bottom: 0px;
+}

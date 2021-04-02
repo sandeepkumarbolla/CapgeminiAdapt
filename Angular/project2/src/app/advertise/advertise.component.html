@@ -1,0 +1,35 @@
+<div class="container-fluid">
+<h1>Advertisement Form</h1>
+
+<form  (ngSubmit)="onSubmit()" #advform="ngForm">
+<div class="form-group">
+    <label for="title">Title</label>
+    <input type="text" class="form-control" id="title"
+           required
+           [(ngModel)]="Model.title" name="title">
+  </div>
+<div class="form-group">
+  <label for="name">Name</label>
+  <input type="text" class="form-control" id="name"
+         required
+         [(ngModel)]="Model.name" name="name">
+</div>
+
+<div class="form-group">
+  <label for="category">Select the Category</label>
+  <select class="form-control"  id="category"
+          required
+          [(ngModel)]="Model.category" name="category">
+    <option *ngFor="let cat of categories" [value]="cat">{{cat}}</option>
+  </select>
+</div>
+<div class="form-group">
+    <label for="des">Description</label>
+    <textarea class="form-control" name="des" id="des" cols="30" rows="10" [(ngModel)]="Model.des"></textarea>
+  </div>
+  <div>
+<button class="btn btn-primary" type="submit">Submit Form</button>
+</div>
+</form>
+</div>
+

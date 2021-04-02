@@ -1,0 +1,18 @@
+.main{
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 0;
+    height: 70%;
+  }
+  mat-grid-tile{
+    background-color: palevioletred;
+  }
+  mat-grid-list{
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  a:hover{
+    cursor: pointer;
+  }

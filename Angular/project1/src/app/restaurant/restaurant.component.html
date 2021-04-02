@@ -1,0 +1,25 @@
+<div>
+    <h1>Restaurants</h1>
+  </div>
+  
+  <div>
+    <button class="btn">Add</button>
+  </div>
+  <div>
+  <table   border="1">
+    <thead>
+      <tr>
+        <th *ngFor="let head of headElements; let i = index" scope="col">{{head}} </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr  *ngFor="let el of elements ; let i=index " >
+        <th scope="row">{{el.position}}</th>
+        <td>{{el.name}}</td>
+        <td>{{el.rating}}</td>
+        <td><button >Edit</button></td>
+        <td><button>Delete</button></td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
