@@ -1,0 +1,103 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 1.5; 
+    padding: 0;
+    margin: 0;
+  }
+   
+  .top{
+      padding-left: 10%;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      color:olivedrab; 
+  }
+  #para{
+    padding-left: 0%; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(136, 129, 128);
+    font-size: 20px;
+  }
+  
+  
+  header{
+    background-image: url('https://www.newstatesman.com/sites/all/themes/creative-responsive-theme/images/new_statesman_events.jpg');
+    height: 100%; 
+    color:rgb(255, 255, 255);
+    padding-top: 30px; 
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: cover; 
+  }
+
+  .formfont{
+      padding-left: 10%;
+      padding-bottom:2%;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-weight:bold;
+      
+  }
+
+  input[type=text],[type=email],[type=tel] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0; 
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color:#808080;
+    opacity: 0.6;
+  }
+  select{
+    width: 7%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    background-color:#808080;
+    border: 1px solid #ccc;
+    border-radius: 40px; 
+    opacity: 0.6;
+  }
+  input[type=number]{
+    width: 5%;
+    padding: 12px 20px;
+    background-color:#808080;
+    margin: 8px 0; 
+    border: 1px solid #ccc;
+    border-radius: 40px; 
+    opacity: 0.6;
+  }
+  input:hover{
+  opacity: 0.4;
+  }
+  select:hover{
+    opacity: 0.4;
+  }
+
+  button {
+    background-color: #5f6e65; 
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 20%;
+  
+  }
+  button:hover{
+    background-color: #ecdfdf; 
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px; 
+    border-radius: 10%;
+  }
+
+  #thank{
+    background-image: url('https://etiquettejulie.com/wp-content/uploads/2017/01/thank-you-from-christian-vision-alliance.jpg');
+    height: 100%; 
+    background-attachment: fixed;
+      background-position: center;
+    background-repeat: no-repeat; 
+    padding-left: 7%;
+    padding-top: 40%;
+    font-size: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-weight: 600;
+    color:#808080;
+  }

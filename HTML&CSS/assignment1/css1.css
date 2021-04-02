@@ -1,0 +1,168 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+
+}
+
+
+header{
+  background: #35424a;
+  min-height: 70px;
+  color: #f4f4f4;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #e8491d 3px solid;
+  border-top: #e8491d 3px solid;
+
+}
+header #person{
+  float: left;
+  font-size: 30px;
+}
+header img{
+  float: left;
+  border-bottom-style: groove;
+  border-top-style:inset;
+  width: 250px;
+  height: 200px;
+  position: top;
+  margin-bottom: 2%;
+ 
+  float: right;
+  right: 18px;
+}
+
+#showcase{
+  min-height: 400px;
+  background: #76c2cf;
+  text-align: center;
+  color: #ffffff;
+}
+#showcase h1{
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+  color: #35424a;
+}
+#showcase p{
+  font-size: 20px;
+  color: #35424a;
+
+}
+
+
+#content {
+  width: 1100px;
+  height: 900px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color:rgb(102, 99, 116);
+}
+
+#main-content {
+  height: 700px;
+  width: 800px;
+  background-color: rgb(182, 33, 33);
+  position: relative;
+  top: 25px;
+  left: 10px;
+  font-family: 'Dosis' , sans-serif;
+}
+
+
+
+
+.event-date {
+  width: 100px;
+  height:7px;
+  text-align: center;
+  line-height: 26px;
+  float: left;
+  font-size: 14px;
+  border-top: 2px solid rgb(199, 253, 49);
+  margin: -1px 0 0 0;
+  padding: 4px 5px 6px 0;
+  clear: left;
+  font-weight: bold;
+}
+
+.event-desc {
+  width: 625px;
+  background: #6a6d88;
+  float: left;
+  margin: 0;
+  padding: 8px 12px 8px 8px;
+  border-top: 1px solid rgb(187, 24, 24);
+  clear: right;
+  font-size: 14px;
+}
+
+.event-desc-nth-child {
+  border-bottom: 1px solid rgb(119, 21, 21);
+}
+
+
+
+#side-content {
+  height: 700px;
+  width: 290px;
+  
+  float: right;
+  clear: both;
+  position: relative;
+  bottom: 680px;
+}
+
+#second-image {
+    width: 250px;
+    height: 200px;
+    position: relative;
+    top: 7px;
+    float: right;
+    right: 18px;
+}
+
+.info {
+    font-size: 90%;
+    font-family: 'Dosis' , sans-serif;
+    position: relative;
+    margin-bottom: 2em;
+    text-align: center;
+    background-color: white;
+}
+
+.th, .info td {
+    vertical-align: top;
+    border: 0;
+    border-bottom: 1px solid #dddddd;
+    padding: 0.2em;
+}
+
+#about {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:bolder;
+    font-size: 26px;
+    background-color: lightsalmon;
+}
+
+
+
+
+.subsection-header {
+  line-height: 120px;
+  padding-left: 30px;
+  font-size: 50px;
+  background-color:lightsalmon;
+  font-weight: bold;
+  height: 120px;
+  width: 768px;
+}
